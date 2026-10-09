@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Виктория Хотян — руководитель направления, менеджер проектов развития</title>
+<meta name="description" content="Резюме Виктории Хотян: 20 лет в проектах и развитии, 5+ функциональных зон. Руководитель направления, развитие бизнеса, продажи, партнёрства, HRTech / EdTech / AI.">
+<meta name="theme-color" content="#150F1F">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#ffffff;
+    --bg-soft:#F7F5FB;
+    --ink:#1B1523;
+    --ink-soft:#5A5266;
+    --muted:#8B8496;
+    --line:#E8E3F0;
+    --violet:#6D4AA6;
+    --violet-dark:#4A2F7A;
+    --violet-soft:#EFE9F9;
+    --accent:#E39A6B;
+    --radius:18px;
+    --shadow:0 10px 40px rgba(60,30,110,.08);
+    --max:1120px;
+  }
+
+  *,*::before,*::after{box-sizing:border-box}
+  html{scroll-behavior:smooth;scroll-padding-top:80px}
+  body{
+    margin:0;
+    font-family:'Inter',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.62;
+    font-size:16px;
+    -webkit-font-smoothing:antialiased;
+    text-rendering:optimizeLegibility;
+  }
+  img{max-width:100%;display:block}
+  a{color:inherit}
+
+  .wrap{max-width:var(--max);margin:0 auto;padding:0 24px}
+
+  /* ---------- NAV ---------- */
+  .nav{
+    position:sticky;top:0;z-index:100;
+    background:rgba(255,255,255,.85);
+    backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+    border-bottom:1px solid transparent;
+    transition:border-color .3s, box-shadow .3s;
+  }
+  .nav.scrolled{border-bottom-color:var(--line);box-shadow:0 4px 24px rgba(60,30,110,.06)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:64px;gap:20px}
+  .brand{font-weight:800;letter-spacing:-.02em;font-size:15px;white-space:nowrap;text-decoration:none}
+  .brand em{font-style:normal;color:var(--violet)}
+  .nav-links{display:flex;gap:26px;list-style:none;margin:0;padding:0}
+  .nav-links a{
+    font-size:14px;font-weight:500;color:var(--ink-soft);text-decoration:none;
+    transition:color .2s;position:relative;white-space:nowrap;
+  }
+  .nav-links a::after{
+    content:'';position:absolute;left:0;right:100%;bottom:-6px;height:2px;
+    background:var(--violet);border-radius:2px;transition:right .28s cubic-bezier(.2,.7,.3,1);
+  }
+  .nav-links a:hover{color:var(--violet)}
+  .nav-links a:hover::after{right:0}
+  .nav-btn{
+    font-size:13.5px;font-weight:600;text-decoration:none;
+    background:var(--violet);color:#fff;padding:9px 18px;border-radius:99px;
+    transition:.25s;white-space:nowrap;
+  }
+  .nav-btn:hover{background:var(--violet-dark);transform:translateY(-1px)}
+
+  /* ---------- HERO ---------- */
+  .hero{
+    position:relative;overflow:hidden;color:#fff;
+    background:
+      radial-gradient(900px 520px at 78% -12%, rgba(140,96,214,.55) 0%, transparent 62%),
+      radial-gradient(700px 480px at 8% 110%, rgba(227,154,107,.16) 0%, transparent 60%),
+      linear-gradient(160deg,#150F1F 0%,#1E1530 55%,#251A3D 100%);
+    padding:76px 0 0;
+  }
+  .hero::after{
+    content:'';position:absolute;inset:0;pointer-events:none;opacity:.5;
+    background-image:radial-gradient(rgba(255,255,255,.055) 1px, transparent 1px);
+    background-size:34px 34px;
+    mask-image:linear-gradient(180deg,#000,transparent 78%);
+    -webkit-mask-image:linear-gradient(180deg,#000,transparent 78%);
+  }
+  .hero-grid{
+    position:relative;z-index:2;
+    display:grid;grid-template-columns:1.55fr .85fr;gap:56px;align-items:center;
+    padding-bottom:64px;
+  }
+  .eyebrow{
+    display:inline-flex;align-items:center;gap:9px;
+    font-size:12.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;
+    color:#C4AFF0;background:rgba(150,110,220,.14);
+    border:1px solid rgba(160,125,230,.28);
+    padding:7px 15px;border-radius:99px;margin-bottom:24px;
+  }
+  .eyebrow::before{
+    content:'';width:6px;height:6px;border-radius:50%;background:#8CE0B0;
+    box-shadow:0 0 0 4px rgba(140,224,176,.18);
+  }
+  h1{
+    font-size:clamp(36px,5.2vw,60px);line-height:1.04;letter-spacing:-.035em;
+    font-weight:800;margin:0 0 16px;
+  }
+  .role{
+    font-size:clamp(16px,1.7vw,20px);font-weight:600;color:#D6C8F5;
+    margin:0 0 22px;letter-spacing:-.01em;
+  }
+  .hero-lead{
+    font-size:17px;color:rgba(255,255,255,.78);max-width:560px;margin:0 0 14px;
+  }
+  .hero-lead strong{color:#fff;font-weight:600}
+  .hero-lead.dim{font-size:15.5px;color:rgba(255,255,255,.6);margin-bottom:32px}
+
+  .cta{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+  .btn{
+    display:inline-flex;align-items:center;gap:9px;
+    font-size:14.5px;font-weight:600;text-decoration:none;
+    padding:13px 24px;border-radius:99px;transition:.25s;border:1px solid transparent;
+  }
+  .btn-primary{background:#fff;color:#2A1B45}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(0,0,0,.3)}
+  .btn-ghost{background:rgba(255,255,255,.07);color:#fff;border-color:rgba(255,255,255,.22)}
+  .btn-ghost:hover{background:rgba(255,255,255,.14);transform:translateY(-2px)}
+  .btn svg{width:16px;height:16px;flex:none}
+
+  /* photo */
+  .photo-wrap{position:relative}
+  .photo{
+    position:relative;border-radius:26px;overflow:hidden;aspect-ratio:4/5;
+    background:linear-gradient(150deg,#3A2A5C,#5B3E96 55%,#8A6ACB);
+    box-shadow:0 30px 70px rgba(0,0,0,.45);
+    border:1px solid rgba(255,255,255,.14);
+  }
+  .photo img{width:100%;height:100%;object-fit:cover}
+  .photo-ph{
+    position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    font-size:64px;font-weight:800;letter-spacing:-.04em;color:rgba(255,255,255,.9);
+  }
+  .photo-wrap::before{
+    content:'';position:absolute;inset:-22px -22px 30px -22px;border-radius:34px;
+    background:radial-gradient(closest-side,rgba(150,110,220,.42),transparent);
+    filter:blur(28px);z-index:-1;
+  }
+
+  /* stats */
+  .stats{
+    position:relative;z-index:2;
+    display:grid;grid-template-columns:repeat(3,1fr);
+    border-top:1px solid rgba(255,255,255,.13);
+  }
+  .stat{padding:30px 0 34px;border-right:1px solid rgba(255,255,255,.13)}
+  .stat:last-child{border-right:none}
+  .stat b{
+    display:block;font-size:clamp(30px,3.6vw,42px);font-weight:800;letter-spacing:-.035em;
+    line-height:1;margin-bottom:9px;
+    background:linear-gradient(120deg,#FFFFFF,#C4AFF0);
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+  }
+  .stat span{font-size:13.5px;color:rgba(255,255,255,.62);font-weight:500}
+  .stat{padding-left:0}
+  .stat + .stat{padding-left:34px}
+
+  /* ---------- SECTIONS ---------- */
+  .section{padding:90px 0}
+  .section.soft{background:var(--bg-soft);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .sec-head{margin-bottom:46px;max-width:760px}
+  .sec-label{
+    display:inline-block;font-size:12px;font-weight:700;letter-spacing:.12em;
+    text-transform:uppercase;color:var(--violet);margin-bottom:14px;
+  }
+  h2{
+    font-size:clamp(26px,3.4vw,38px);line-height:1.14;letter-spacing:-.032em;
+    font-weight:800;margin:0 0 14px;
+  }
+  .sec-sub{color:var(--ink-soft);font-size:16.5px;margin:0}
+
+  /* about chips */
+  .chips{display:flex;flex-wrap:wrap;gap:9px;margin-top:26px}
+  .chip{
+    font-size:13.5px;font-weight:500;color:var(--violet-dark);
+    background:var(--violet-soft);border:1px solid #DFD4F3;
+    padding:7px 14px;border-radius:99px;
+  }
+
+  /* timeline */
+  .timeline{position:relative;padding-left:34px}
+  .timeline::before{
+    content:'';position:absolute;left:7px;top:14px;bottom:14px;width:2px;
+    background:linear-gradient(180deg,var(--violet),#DCD3EC 85%,transparent);
+    border-radius:2px;
+  }
+  .job{position:relative;margin-bottom:34px}
+  .job:last-child{margin-bottom:0}
+  .job::before{
+    content:'';position:absolute;left:-34px;top:26px;width:16px;height:16px;
+    border-radius:50%;background:#fff;border:3px solid var(--violet);
+    box-shadow:0 0 0 5px rgba(109,74,166,.09);z-index:1;
+  }
+  .job.dim::before{border-color:#C3B7DA;box-shadow:0 0 0 5px rgba(109,74,166,.05)}
+
+  .job-card{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:28px 30px;box-shadow:var(--shadow);
+    transition:transform .3s cubic-bezier(.2,.7,.3,1), box-shadow .3s;
+  }
+  .job-card:hover{transform:translateY(-3px);box-shadow:0 20px 52px rgba(60,30,110,.13)}
+  .job-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 16px;margin-bottom:6px}
+  .job-period{
+    font-size:12.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    color:var(--violet);background:var(--violet-soft);
+    padding:5px 12px;border-radius:8px;white-space:nowrap;
+  }
+  .job-role{font-size:19px;font-weight:700;letter-spacing:-.02em;margin:0;flex:1 1 260px}
+  .job-company{
+    font-size:15px;color:var(--ink-soft);margin:0 0 18px;
+    display:flex;flex-wrap:wrap;align-items:center;gap:8px;
+  }
+  .job-company a{color:var(--violet);text-decoration:none;font-weight:600}
+  .job-company a:hover{text-decoration:underline}
+  .dot{width:3px;height:3px;border-radius:50%;background:var(--muted);display:inline-block}
+
+  .block{margin-top:20px}
+  .block:first-of-type{margin-top:0}
+  .block-title{
+    font-size:14.5px;font-weight:700;letter-spacing:-.01em;color:var(--ink);
+    margin:0 0 9px;display:flex;gap:9px;align-items:baseline;
+  }
+  .block-title .n{
+    font-size:11.5px;font-weight:700;color:var(--violet);
+    background:var(--violet-soft);border-radius:6px;
+    min-width:22px;height:22px;display:inline-flex;align-items:center;justify-content:center;
+    flex:none;transform:translateY(1px);
+  }
+  ul.bul{list-style:none;margin:0;padding:0}
+  ul.bul li{
+    position:relative;padding-left:19px;margin-bottom:7px;
+    font-size:15px;color:var(--ink-soft);line-height:1.55;
+  }
+  ul.bul li:last-child{margin-bottom:0}
+  ul.bul li::before{
+    content:'';position:absolute;left:2px;top:10px;width:7px;height:2px;
+    background:var(--violet);border-radius:2px;opacity:.55;
+  }
+
+  .callout{
+    margin-top:22px;padding:18px 20px;border-radius:14px;
+    background:linear-gradient(135deg,#F7F4FD,#F2EEFB);
+    border:1px solid #E4DBF6;
+  }
+  .callout .block-title{margin-bottom:8px;color:var(--violet-dark)}
+  .callout ul.bul li{color:#4A4060;font-size:14.5px}
+  .callout ul.bul li::before{background:var(--violet);opacity:.8}
+
+  .note{
+    margin-top:16px;font-size:14px;color:var(--muted);
+    padding-top:14px;border-top:1px dashed var(--line);
+  }
+  .note b{color:var(--ink-soft);font-weight:600}
+
+  /* early experience grid */
+  .grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .mini{
+    background:#fff;border:1px solid var(--line);border-radius:14px;padding:22px 24px;
+    transition:.3s;
+  }
+  .mini:hover{transform:translateY(-3px);box-shadow:var(--shadow);border-color:#DCD3EC}
+  .mini h4{margin:0 0 4px;font-size:16px;font-weight:700;letter-spacing:-.015em}
+  .mini .m-co{font-size:13.5px;color:var(--violet);font-weight:600;margin:0 0 12px}
+  .mini ul.bul li{font-size:14px}
+  .mini .m-period{font-size:12px;color:var(--muted);font-weight:600;letter-spacing:.03em;text-transform:uppercase;margin-bottom:6px;display:block}
+
+  /* skills */
+  .skill-group{margin-bottom:34px}
+  .skill-group:last-child{margin-bottom:0}
+  .skill-group h3{
+    font-size:13px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+    color:var(--muted);margin:0 0 16px;
+  }
+  .tags{display:flex;flex-wrap:wrap;gap:9px}
+  .tag{
+    font-size:14px;font-weight:500;color:var(--ink);
+    background:#fff;border:1px solid var(--line);border-radius:10px;
+    padding:9px 15px;transition:.22s;cursor:default;
+  }
+  .tag:hover{border-color:var(--violet);color:var(--violet-dark);transform:translateY(-2px);box-shadow:0 6px 18px rgba(109,74,166,.1)}
+  .tag.accent{background:var(--violet-soft);border-color:#DFD4F3;color:var(--violet-dark);font-weight:600}
+
+  .langs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:8px}
+  .lang{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .lang b{display:block;font-size:15px;font-weight:700;margin-bottom:4px}
+  .lang span{font-size:13.5px;color:var(--ink-soft)}
+
+  /* education */
+  .edu-main{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:26px 30px;box-shadow:var(--shadow);margin-bottom:24px;
+    display:flex;gap:22px;align-items:center;
+  }
+  .edu-year{
+    font-size:13px;font-weight:800;color:var(--violet);letter-spacing:.04em;
+    background:var(--violet-soft);border-radius:10px;padding:10px 14px;flex:none;
+  }
+  .edu-main h3{margin:0 0 5px;font-size:18px;font-weight:700;letter-spacing:-.02em}
+  .edu-main p{margin:0;color:var(--ink-soft);font-size:15px}
+
+  .courses{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+  .course{
+    display:flex;gap:14px;align-items:flex-start;
+    background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px;
+    transition:.25s;
+  }
+  .course:hover{border-color:#DCD3EC;transform:translateX(3px)}
+  .course .cy{
+    font-size:12.5px;font-weight:800;color:var(--violet);flex:none;
+    min-width:40px;padding-top:1px;letter-spacing:.02em;
+  }
+  .course .ct{font-size:14.5px;line-height:1.45}
+  .course .ct b{display:block;font-weight:600;color:var(--ink)}
+  .course .ct span{color:var(--muted);font-size:13.5px}
+
+  /* looking for */
+  .looking{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+  .look{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:26px 28px;position:relative;overflow:hidden;transition:.3s;
+  }
+  .look:hover{transform:translateY(-4px);box-shadow:var(--shadow);border-color:#DCD3EC}
+  .look .ln{
+    font-size:34px;font-weight:800;letter-spacing:-.04em;line-height:1;
+    color:var(--violet-soft);margin-bottom:14px;
+    -webkit-text-stroke:1.5px #C9B9E8;
+  }
+  .look h4{margin:0 0 9px;font-size:16.5px;font-weight:700;letter-spacing:-.015em}
+  .look p{margin:0;font-size:14.5px;color:var(--ink-soft);line-height:1.6}
+
+  /* differences */
+  .diff{display:grid;gap:12px}
+  .d-item{
+    display:flex;gap:16px;align-items:flex-start;
+    background:#fff;border:1px solid var(--line);border-radius:14px;padding:20px 24px;
+    transition:.28s;
+  }
+  .d-item:hover{border-color:#DCD3EC;transform:translateX(4px);box-shadow:0 8px 26px rgba(60,30,110,.07)}
+  .d-ico{
+    width:30px;height:30px;border-radius:9px;flex:none;
+    background:var(--violet-soft);color:var(--violet);
+    display:flex;align-items:center;justify-content:center;margin-top:1px;
+  }
+  .d-ico svg{width:16px;height:16px}
+  .d-item p{margin:0;font-size:15px;color:var(--ink-soft);line-height:1.6}
+  .d-item p b{color:var(--ink);font-weight:600}
+
+  /* hobbies */
+  .hobbies{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+  .hobby{
+    font-size:14.5px;font-weight:500;background:#fff;border:1px solid var(--line);
+    border-radius:99px;padding:11px 20px;transition:.25s;
+  }
+  .hobby:hover{border-color:var(--violet);color:var(--violet-dark);transform:translateY(-2px)}
+
+  /* contact */
+  .contact{
+    background:
+      radial-gradient(700px 400px at 85% 0%, rgba(140,96,214,.5) 0%, transparent 60%),
+      linear-gradient(160deg,#150F1F 0%,#221839 100%);
+    color:#fff;padding:88px 0;
+  }
+  .contact h2{color:#fff}
+  .contact .sec-sub{color:rgba(255,255,255,.65)}
+  .contact-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:40px}
+  .c-card{
+    display:block;text-decoration:none;color:#fff;
+    background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.14);
+    border-radius:16px;padding:22px 22px;transition:.28s;
+  }
+  .c-card:hover{background:rgba(255,255,255,.12);transform:translateY(-4px);border-color:rgba(196,175,240,.5)}
+  .c-card span{display:block;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:#C4AFF0;margin-bottom:9px}
+  .c-card b{font-size:15.5px;font-weight:600;word-break:break-word;line-height:1.35}
+
+  footer{
+    background:#0F0A17;color:rgba(255,255,255,.4);
+    padding:26px 0;font-size:13.5px;text-align:center;
+  }
+  footer a{color:rgba(255,255,255,.6);text-decoration:none}
+  footer a:hover{color:#fff}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(20px);transition:opacity .75s cubic-bezier(.2,.7,.3,1),transform .75s cubic-bezier(.2,.7,.3,1)}
+  .reveal.in{opacity:1;transform:none}
+
+  /* ---------- RESPONSIVE ---------- */
+  @media (max-width:960px){
+    .hero-grid{grid-template-columns:1fr;gap:40px;padding-bottom:52px}
+    .photo-wrap{max-width:300px}
+    .contact-grid{grid-template-columns:repeat(2,1fr)}
+    .courses{grid-template-columns:1fr}
+    .langs{grid-template-columns:1fr}
+  }
+  @media (max-width:760px){
+    .nav-links{display:none}
+    .section{padding:64px 0}
+    .hero{padding-top:52px}
+    .stats{grid-template-columns:1fr}
+    .stat{border-right:none;border-bottom:1px solid rgba(255,255,255,.13);padding:22px 0 !important}
+    .stat:last-child{border-bottom:none}
+    .grid-2,.looking{grid-template-columns:1fr}
+    .timeline{padding-left:26px}
+    .job::before{left:-26px;width:14px;height:14px;top:24px}
+    .timeline::before{left:6px}
+    .job-card{padding:22px 20px}
+    .edu-main{flex-direction:column;align-items:flex-start;gap:14px}
+    .contact-grid{grid-template-columns:1fr}
+  }
+  @media (max-width:420px){
+    .wrap{padding:0 18px}
+    .btn{padding:12px 18px;font-size:14px}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    html{scroll-behavior:auto}
+    .reveal{opacity:1;transform:none;transition:none}
+    *{transition-duration:.01ms !important;animation-duration:.01ms !important}
+  }
+
+  /* ---------- PRINT ---------- */
+  @media print{
+    .nav,.cta,.hero::after,.photo-wrap::before{display:none !important}
+    body{font-size:11.5pt;line-height:1.45}
+    .hero{background:#fff !important;color:#000 !important;padding:0 0 16px}
+    .hero-grid{grid-template-columns:1fr;padding-bottom:8px;gap:0}
+    .eyebrow{color:#555;border-color:#ccc;background:none}
+    h1{font-size:26pt;color:#000}
+    .role{color:#333}
+    .hero-lead,.hero-lead.dim{color:#333 !important}
+    .stats{border-top:1px solid #ccc;color:#000}
+    .stat{border-color:#ddd !important}
+    .stat b{color:#000 !important;-webkit-text-fill-color:#000;background:none}
+    .stat span{color:#555}
+    .photo-wrap{display:none}
+    .section{padding:18px 0;page-break-inside:avoid}
+    .section.soft{background:#fff}
+    .job-card,.mini,.look,.d-item,.course,.lang,.edu-main{box-shadow:none !important;border:1px solid #ddd !important;page-break-inside:avoid}
+    .contact{background:#fff !important;color:#000 !important;padding:20px 0}
+    .contact h2,.contact .sec-sub{color:#000 !important}
+    .c-card{background:#fff !important;border:1px solid #ddd !important;color:#000 !important}
+    .c-card span{color:#666}
+    footer{display:none}
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav" id="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="brand">Виктория <em>Хотян</em></a>
+    <ul class="nav-links">
+      <li><a href="#about">Обо мне</a></li>
+      <li><a href="#experience">Опыт</a></li>
+      <li><a href="#skills">Навыки</a></li>
+      <li><a href="#education">Образование</a></li>
+      <li><a href="#looking">Что ищу</a></li>
+    </ul>
+    <a href="#contact" class="nav-btn">Связаться</a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <span class="eyebrow">Москва · Санкт-Петербург · Удалённо</span>
+      <h1>Виктория Хотян</h1>
+      <p class="role">Руководитель направления / менеджер проектов развития</p>
+      <p class="hero-lead"><strong>Помогаю развивать бизнес,</strong> создавая и перестраивая направления и проекты.</p>
+      <p class="hero-lead dim">Правая рука топов в стиле Kanban — работаю внутри функций или на стыке функций: продаж, маркетинга, проектов, продуктов, партнёрств, HR, ИИ.</p>
+      <div class="cta">
+        <a href="#contact" class="btn btn-primary">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v16H4z"/><path d="m4 6 8 6 8-6"/></svg>
+          Написать
+        </a>
+        <a href="#" class="btn btn-ghost" onclick="window.print();return false;">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9V2h12v7"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 14h12v8H6z"/></svg>
+          Скачать PDF
+        </a>
+      </div>
+    </div>
+
+    <div class="photo-wrap">
+      <div class="photo">
+        <!-- ▼▼ ЗАМЕНИТЕ ЭТОТ БЛОК НА СВОЁ ФОТО ▼▼
+             <img src="vika.jpg" alt="Виктория Хотян">
+        -->
+        <div class="photo-ph">ВХ</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><b>20 лет</b><span>в проектах и развитии</span></div>
+      <div class="stat"><b>5+</b><span>функциональных зон</span></div>
+      <div class="stat"><b>100%</b><span>от идей до результатов</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ ABOUT ============ -->
+<section class="section" id="about">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <span class="sec-label">Обо мне</span>
+      <h2>Быстро погружаюсь, нахожу пробелы, довожу до результата</h2>
+      <p class="sec-sub">
+        Быстро погружаюсь в новые сферы и продукты, анализирую пробелы и возможности,
+        систематизирую, создаю, меняю, тестирую гипотезы — и развиваю идеи до работающего
+        результата: запуск проекта или перестройка направления, процессов, инструментов,
+        упаковок, дашбордов, финансовый учёт, подбор и обучение команды.
+      </p>
+      <div class="chips">
+        <span class="chip">ИТ / ИИ</span>
+        <span class="chip">SaaS-сервисы</span>
+        <span class="chip">Услуги B2C / B2B</span>
+        <span class="chip">Технологии производства</span>
+        <span class="chip">HRTech</span>
+        <span class="chip">EdTech</span>
+        <span class="chip">HealthTech</span>
+        <span class="chip">TravelTech</span>
+        <span class="chip">EventTech</span>
+        <span class="chip">FoodTech</span>
+        <span class="chip">EcoTech</span>
+        <span class="chip">MentalTech</span>
+        <span class="chip">E-commerce</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="section soft" id="experience">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-label">Опыт работы</span>
+      <h2>Проекты, направления, команды</h2>
+      <p class="sec-sub">От аудита и стратегии — до внедрения, найма и P&amp;L.</p>
+    </div>
+
+    <div class="timeline">
+
+      <!-- UNICRAFT -->
+      <div class="job reveal">
+        <div class="job-card">
+          <div class="job-top">
+            <span class="job-period">Окт 2025 — Авг 2026</span>
+            <h3 class="job-role">Руководитель развития продаж</h3>
+          </div>
+          <p class="job-company">
+            <a href="https://unicraft.org" target="_blank" rel="noopener">Unicraft</a>
+            <i class="dot"></i> EdTech, B2B SaaS, AI
+          </p>
+
+          <div class="block">
+            <p class="block-title"><span class="n">1</span> Аудит продаж и стратегия развития</p>
+            <ul class="bul">
+              <li>Провела анализ сферы, показателей, процессов, инструментов, воронки, сделок, команды</li>
+              <li>Создала roadmap развития, изменений и гипотез в режиме kanban</li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <p class="block-title"><span class="n">2</span> Развитие и управление отделом продаж</p>
+            <ul class="bul">
+              <li>Внедрила систему аналитики, отчётности и разработала факторную модель планирования P&amp;L в ОП</li>
+              <li>Перестроила CRM-процесс и интеграции (мессенджеры, звонки, рассылки, сводки, базы и т.д.)</li>
+              <li>Изменила систему мотивации / KPI</li>
+              <li>Обновила команду, регламенты, обучение</li>
+              <li>Выполняла классические функции РОПа (контроль 3 менеджеров)</li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <p class="block-title"><span class="n">3</span> Маркетинг и упаковка</p>
+            <ul class="bul">
+              <li>Изучила рынок LMS и отрасли, разработала позиционирование по преимуществам компании и LMS</li>
+              <li>Разработала новые презентации, шаблоны КП, страницы сайта</li>
+              <li>Провела анализ конкурентов: сравнение, чек-лист по продукту</li>
+              <li>Разработала новую систему тарифов и пилотный проект</li>
+              <li>Обновила активности маркетинга по контенту, SMM, SEO/GEO, присутствию на площадках, каталогах, рейтингах</li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <p class="block-title"><span class="n">4</span> Развитие бизнеса и партнёрства</p>
+            <ul class="bul">
+              <li>Запустила 10+ новых гипотез с минимальным бюджетом: касания по CRM, рассылки, холодные заходы по сферам, реклама, сообщества, партнёрство с блогерами, конференции, анализ для нейросетей, видеообзоры, СНГ-направление и др.</li>
+              <li>Обновила партнёрскую программу, лендинг, соглашения</li>
+              <li>Отвечала за выстраивание отношений с текущими и новыми партнёрами</li>
+              <li>Проводила встречи, организовывала и проводила вебинары</li>
+              <li>Искала новых партнёров / экспертов / блогеров / площадки; запускала рекламу</li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <p class="block-title"><span class="n">5</span> Вклад в продакт-менеджмент</p>
+            <ul class="bul">
+              <li>Участвовала в приоритезации фичей разработки и тестировании продуктов (LMS + ИИ-генератор курсов)</li>
+              <li>Создала базу знаний по новым проектам, в т.ч. для сложных пресейлов и RFI/RFP</li>
+              <li>Обновила площадки и процессы по триалам / демо</li>
+            </ul>
+          </div>
+
+          <div class="callout">
+            <p class="block-title">Итоги</p>
+            <ul class="bul">
+              <li>ОП стал более прозрачным и управляемым, обновились инструменты</li>
+              <li>Протестированы и запущены гипотезы и направления, которыми компания ранее не занималась (в т.ч. с отложенным эффектом)</li>
+              <li>Повысилась конверсия на 30% относительно аналогичного периода</li>
+            </ul>
+          </div>
+
+          <p class="note">
+            <b>Причина ухода:</b> ключевые активности по развитию выполнены + сокращение расходов компании,
+            поэтому совместное решение передать управление ОП руководителю.
+          </p>
+          <p class="note" style="border:none;padding-top:6px;margin-top:6px">
+            <b>Рекомендации:</b> ССО Екатерина Пишняк @katyapish, также другие коллеги
+          </p>
+        </div>
+      </div>
+
+      <!-- БИЗНЕС ФОРМУЛА -->
+      <div class="job reveal">
+        <div class="job-card">
+          <div class="job-top">
+            <span class="job-period">Янв 2024 — Июл 2025 · 1 г 7 мес</span>
+            <h3 class="job-role">Зам. коммерческого директора / Рук. направления</h3>
+          </div>
+          <p class="job-company">
+            <a href="https://bformula.ru" target="_blank" rel="noopener">Бизнес Формула</a>
+            <i class="dot"></i> интегратор прогрессивного ПО, режим стартапа
+          </p>
+          <p style="margin:0 0 18px;font-size:15px;color:var(--ink-soft)">
+            Правая рука коммерческого директора. Мультихаб в маленькой компании:
+          </p>
+
+          <div class="block">
+            <p class="block-title"><span class="n">1</span> Работа с партнёрами</p>
+            <ul class="bul"><li>Аккаунтинг, поиск, материалы, координация пилотов</li></ul>
+          </div>
+          <div class="block">
+            <p class="block-title"><span class="n">2</span> Работа с клиентами</p>
+            <ul class="bul"><li>Аккаунтинг, пресейлы, КП, координация пилотных проектов</li></ul>
+          </div>
+          <div class="block">
+            <p class="block-title"><span class="n">3</span> Процессы и кросс-функциональные коммуникации</p>
+            <ul class="bul"><li>Синки / статусы, контроль задач, инструкции, внутренние проекты, wiki и HR-роль</li></ul>
+          </div>
+          <div class="block">
+            <p class="block-title"><span class="n">4</span> Координация отдела лидогенерации</p>
+            <ul class="bul"><li>Процессы, настройка и контроль amoCRM, найм, обучение, скрипты, аналитика</li></ul>
+          </div>
+          <div class="block">
+            <p class="block-title"><span class="n">5</span> Маркетинговые активности</p>
+            <ul class="bul"><li>Презентации, лендинги на Tilda, TG-каналы, тестирование гипотез продвижения, подготовка ивентов</li></ul>
+          </div>
+          <div class="block">
+            <p class="block-title"><span class="n">6</span> Управление HRTech-направлением</p>
+            <ul class="bul"><li>Изучение рынка и участие в продажах: лидген, HRM/ATS-системы, ИИ-рекрутинг, LMS, ИИ-генератор, RPA и т.д.</li></ul>
+          </div>
+          <div class="block">
+            <p class="block-title"><span class="n">7</span> Другие процессы</p>
+            <ul class="bul"><li>Помощь коммерческому и генеральному директорам: систематизация операционки, развитие, персонал, отчётность, ТЗ</li></ul>
+          </div>
+
+          <div class="callout">
+            <p class="block-title">Достижения</p>
+            <ul class="bul">
+              <li>Внедрила amoCRM</li>
+              <li>Навела порядок в базовых операционных процессах и базах</li>
+              <li>Запустила HRTech / AI-направление</li>
+              <li>Сочетала 5+ ролей</li>
+            </ul>
+          </div>
+          <p class="note"><b>Рекомендации:</b> ССО Сергей Коринский @russian_low_code</p>
+        </div>
+      </div>
+
+      <!-- SOFTMEDIALAB -->
+      <div class="job reveal">
+        <div class="job-card">
+          <div class="job-top">
+            <span class="job-period">Май 2023 — Дек 2023 · 8 мес</span>
+            <h3 class="job-role">Руководитель направления ИТ-аутстаф</h3>
+          </div>
+          <p class="job-company">
+            <a href="https://softmedialab.com" target="_blank" rel="noopener">SoftMedialab</a>
+            <i class="dot"></i> Департамент развития бизнеса
+          </p>
+
+          <ul class="bul">
+            <li><b>Кросс-функциональное управление:</b> СОО, СТО, РОП, КАМы, РПО, менеджеры по партнёрам, HRD, рекрутеры, документооборот, юрист, специалист по тендерам</li>
+            <li><b>Аккаунтинг, внешние коммуникации:</b> клиенты, партнёры</li>
+            <li><b>Исследование рынка и проверка гипотез:</b> направления, презентации, лидогенерация, опросы, специализация, непрофильное партнёрство, агентские схемы, 1С, конференции, апсейлы, ставки</li>
+            <li><b>Рекрутинг:</b> полный цикл (позиции КАМ, HR, 1С) — Хантфлоу, hh, LinkedIn</li>
+            <li><b>Оптимизация бизнес-процессов:</b> Miro, IDEF, mind maps, таблицы, учёт, чаты</li>
+            <li><b>OKR-отчётность,</b> участие в стратегическом планировании компании, выступления</li>
+          </ul>
+
+          <div class="callout">
+            <p class="block-title">Достижения</p>
+            <ul class="bul">
+              <li>Протестировала 10+ гипотез</li>
+              <li>Оптимизировала бизнес-процессы и оргструктуру направления, снизив издержки</li>
+            </ul>
+          </div>
+          <p class="note"><b>Рекомендации:</b> СОО Евгений Иванченко @evgenii_ivanchenko</p>
+        </div>
+      </div>
+
+      <!-- DIGITAL ZONE -->
+      <div class="job reveal">
+        <div class="job-card">
+          <div class="job-top">
+            <span class="job-period">Авг 2019 — Апр 2023 · 3 г 9 мес</span>
+            <h3 class="job-role">Руководитель направления и внутренних проектов</h3>
+          </div>
+          <p class="job-company">
+            <a href="https://dzsystems.ru" target="_blank" rel="noopener">Digital Zone (ГК DZ-Systems)</a>
+            <i class="dot"></i> КАМ · партнёрства · BDM · HR
+          </p>
+
+          <div class="block">
+            <p class="block-title">2019–2021 · Правая рука CEO, хаб компании</p>
+            <ul class="bul">
+              <li><b>КАМ:</b> ведение пресейлов, контроль CRM в компании</li>
+              <li><b>РП:</b> кросс-функциональная координация внутренних и внешних проектов, разработка ТЗ</li>
+              <li><b>Развитие с нуля партнёрской сети</b> для аутсорсинг- и аутстаф-проектов, оценка проектов</li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <p class="block-title">2021–2023 · Руководитель направления аутстаффинга и ресурсов</p>
+            <p style="margin:0 0 12px;font-size:14.5px;color:var(--muted)">Функционал хаба сохранился на 20%, на 80% появился полный цикл управления направлением аутстаффинга ИТ-специалистов:</p>
+            <ul class="bul">
+              <li><b>CRM / клиенты:</b> лидген, пресейл, контрактация, аккаунтинг, документооборот, коммуникации</li>
+              <li><b>PRM / партнёры / подрядчики:</b> поиск, контрактация, аккаунтинг, документооборот, переговоры</li>
+              <li><b>HRM / сотрудники:</b> найм, обучение, онбординг, офбординг, HR-бренд</li>
+              <li><b>BPM / процессы и финансы:</b> процессы, коммуникации, системы планирования и учёта ресурсов, бюджетов, P&amp;L, контрагентов, оплат, рентабельности, баз специалистов</li>
+              <li><b>BDM / маркетинг:</b> изучение рынка, тестирование гипотез для продаж и найма (зарубежные рынки, стартапы, реклама, нетворкинг, бренд, TG-рассылки, опросники, skill-маркетинг), создание сайта-маркетплейса на Tilda</li>
+              <li><b>В прямом подчинении:</b> 1–3 человека</li>
+            </ul>
+          </div>
+
+          <div class="callout">
+            <p class="block-title">Достижения</p>
+            <ul class="bul">
+              <li>Увеличила прибыль направления в 3 раза (оборот — в 2 раза)</li>
+              <li>Сохранила направление в компании при падении рынка в 2022</li>
+              <li>Протестировала 10+ гипотез, создала партнёрскую сеть</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- СВОЙ ПРОЕКТ -->
+      <div class="job reveal">
+        <div class="job-card">
+          <div class="job-top">
+            <span class="job-period">2018 — 2021 · 3 года</span>
+            <h3 class="job-role">Организатор и ведущая мероприятий</h3>
+          </div>
+          <p class="job-company">Свой проект <i class="dot"></i> с нуля придумала и сменила сферу</p>
+
+          <ul class="bul">
+            <li>Создание лендингов на Tilda, маркетинговых материалов, продвижение на порталах</li>
+            <li>Ведение соцсетей / SMM, контент, проведение видеоинтервью</li>
+            <li>Пресейлы, разработка и согласование плана, концепции, программы мероприятия</li>
+            <li>Разработка оригинальных идей, интерактивов, монтаж видеороликов</li>
+            <li>Проведение мероприятий (частные, корпоративные, городские)</li>
+            <li>Создание и проведение мастер-классов / тренингов</li>
+            <li>Проектное планирование и контроль (задачи, смета, подрядчики)</li>
+            <li>Поиск и контроль исполнителей (в т.ч. на городские мероприятия)</li>
+          </ul>
+
+          <div class="callout">
+            <p class="block-title">Достижения</p>
+            <ul class="bul">
+              <li>Реализовалась от идеи и гипотез → до рейтинга ведущих Москвы</li>
+              <li>Создала свою систему планирования праздников и смет на основе методологий управления проектами</li>
+              <li>Создала собственную базу интерактивов и МК «Ораторство для жизни»</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- EARLY EXPERIENCE -->
+    <div class="sec-head reveal" style="margin-top:76px;margin-bottom:30px">
+      <span class="sec-label">Ранее</span>
+      <h2 style="font-size:clamp(22px,2.6vw,30px)">Более ранний опыт</h2>
+    </div>
+
+    <div class="grid-2">
+
+      <div class="mini reveal">
+        <span class="m-period">Lamoda</span>
+        <h4>Менеджер проектов развития (Agile)</h4>
+        <p class="m-co">Проекты направления ERP</p>
+        <ul class="bul">
+          <li>Взаимодействие с кросс-функциональными командами</li>
+          <li>Фасилитация планирования спринтов и совещаний (Scrum)</li>
+          <li>Проектная отчётность и презентации уровня Совета директоров (рус + eng)</li>
+        </ul>
+      </div>
+
+      <div class="mini reveal">
+        <span class="m-period">Digital Zone (ГК DZ-Systems)</span>
+        <h4>Руководитель проектов E-comm / Аккаунт-менеджер</h4>
+        <p class="m-co">Аутсорс-разработка, внутренние проекты</p>
+        <ul class="bul">
+          <li>Планирование и управление ресурсами, сотрудниками, коммуникациями, конфликтами</li>
+          <li>Отношения с заказчиками, подрядчиками, партнёрами; сроки, риски, финансы</li>
+          <li>Пресейлы, аккаунтинг, постпроектный разбор сложных проектов</li>
+          <li>Команды до 30 человек</li>
+          <li>КАМ: управляющие комитеты, апсейлы, аудит экономики проектов. Ключевые заказчики: Юлмарт, Теле2, Детский мир, Почта России, Акрихин и др.</li>
+        </ul>
+      </div>
+
+      <div class="mini reveal">
+        <span class="m-period">Свой проект</span>
+        <h4>Руководитель food e-comm стартапа</h4>
+        <p class="m-co">Доставка здорового питания — с нуля</p>
+        <ul class="bul">
+          <li>Идея, планирование, финансовый учёт, управление командой</li>
+          <li>Процессы: закупки, заказы, доставка, производство</li>
+          <li>Сайт на inSales, продвижение, реклама, партнёрства, контент</li>
+          <li>Анализ рынка, SWOT, выступления на тематических мероприятиях</li>
+        </ul>
+      </div>
+
+      <div class="mini reveal">
+        <span class="m-period">ПрофМедиа Холдинг</span>
+        <h4>Менеджер проектов корпоративного развития</h4>
+        <ul class="bul">
+          <li>Участие в процессах планирования холдинга (стратегия, годовой бизнес-план, оргструктура)</li>
+          <li>Инициация и планирование проектов по улучшению бизнес-процессов компаний холдинга: развитие ТВ-рынка в интернете, перевод ИТ-специалистов в регионы, конкурс обмена лучшими практиками, описание процессов и контролей</li>
+        </ul>
+      </div>
+
+      <div class="mini reveal">
+        <span class="m-period">Novartis Pharma</span>
+        <h4>Менеджер развития коммерческого департамента (проект)</h4>
+        <p class="m-co">Годовой глобальный проект · рус + eng</p>
+        <ul class="bul">
+          <li>Поддержка Change Management кросс-функционально: топы (уровень Совета директоров) + внешние консультанты BCG + сотрудники департамента</li>
+          <li>Изменение бизнес-процессов: стратегическое региональное планирование, отчётность, воронки, оргструктура, внедрение инструментов для КАМ (B2B, B2C, B2G)</li>
+          <li>Развитие проектного подхода и системы совещаний: презентации, письма, тренинги, организация совещаний</li>
+        </ul>
+      </div>
+
+      <div class="mini reveal">
+        <span class="m-period">Сен 2007 — Авг 2010 · 3 года</span>
+        <h4>PricewaterhouseCoopers</h4>
+        <p class="m-co">Консультант (аудит бизнес-процессов)</p>
+        <ul class="bul">
+          <li>Проекты аудита и консалтинга: FMCG, производство, банки, ритейл, медиа, услуги</li>
+          <li>Планирование бюджета, сроков, содержания, команды (1–5 чел.)</li>
+          <li>Обсуждение требований с заказчиками; контроль, коучинг сотрудников</li>
+          <li>Описание и анализ основных циклов бизнес-процессов; оценка систем внутреннего контроля и бизнес-рисков</li>
+          <li>Разработка рекомендаций, согласование результатов, оценка работы сотрудников</li>
+        </ul>
+      </div>
+
+      <div class="mini reveal">
+        <span class="m-period">Янв 2007 — Июл 2007 · 7 мес</span>
+        <h4>КОРУС Консалтинг</h4>
+        <p class="m-co">Ассистент руководителя отдела продаж и маркетинга</p>
+        <ul class="bul">
+          <li>Ведение договоров, документов; подготовка презентаций, КП, тендеров</li>
+          <li>Участие в переговорах, маркетинговых мероприятиях, рекрутинговом процессе</li>
+        </ul>
+      </div>
+
+      <div class="mini reveal">
+        <span class="m-period">2005 — 2007</span>
+        <h4>Тренер и администратор фитнес-клубов</h4>
+        <p class="m-co">Первые шаги в работе с людьми и командами</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ SKILLS ============ -->
+<section class="section" id="skills">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <span class="sec-label">Навыки</span>
+      <h2>Инструменты и языки</h2>
+    </div>
+
+    <div class="skill-group">
+      <h3>Инструменты</h3>
+      <div class="tags">
+        <span class="tag accent">GPT / AI</span>
+        <span class="tag">MS Office</span>
+        <span class="tag">CRM</span>
+        <span class="tag">Coldy</span>
+        <span class="tag">P&amp;L</span>
+        <span class="tag">KPI / OKR</span>
+        <span class="tag">Roadmap</span>
+        <span class="tag">Jira / Redmine / Trello</span>
+        <span class="tag">EVM</span>
+        <span class="tag">Miro</span>
+        <span class="tag">MVP</span>
+        <span class="tag">CustDev</span>
+        <span class="tag">hh</span>
+        <span class="tag">MBTI</span>
+        <span class="tag">Agile / Kanban / Waterfall</span>
+        <span class="tag">BPMN / IDEF0</span>
+        <span class="tag">Tilda</span>
+        <span class="tag">SMM</span>
+        <span class="tag">Canva</span>
+        <span class="tag">CapCut</span>
+      </div>
+    </div>
+
+    <div class="skill-group">
+      <h3>Языки</h3>
+      <div class="langs">
+        <div class="lang"><b>Русский</b><span>Родной</span></div>
+        <div class="lang"><b>Английский</b><span>B2 — средне-продвинутый (требует рефреша)</span></div>
+        <div class="lang"><b>Итальянский, белорусский</b><span>Базовый</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section soft" id="education">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <span class="sec-label">Образование и курсы</span>
+      <h2>База и постоянное обучение</h2>
+    </div>
+
+    <div class="edu-main">
+      <span class="edu-year">2007</span>
+      <div>
+        <h3>СПбГИЭУ (ИНЖЭКОН)</h3>
+        <p>Информационные системы в экономике и управлении — высшее</p>
+      </div>
+    </div>
+
+    <div class="skill-group" style="margin-bottom:0">
+      <h3>Повышение квалификации</h3>
+      <div class="courses">
+        <div class="course"><span class="cy">2025</span><span class="ct"><b>Арсенал РОПа</b><span>Фактор Продаж</span></span></div>
+        <div class="course"><span class="cy">2024</span><span class="ct"><b>Типолог (психотипы людей)</b><span>Школа типологии Эниостиль</span></span></div>
+        <div class="course"><span class="cy">2019</span><span class="ct"><b>Партизанский маркетинг</b><span>Негинский С.</span></span></div>
+        <div class="course"><span class="cy">2017</span><span class="ct"><b>Искусство речи и ораторства</b><span>Санкт-Петербургская школа телевидения</span></span></div>
+        <div class="course"><span class="cy">2011</span><span class="ct"><b>Управление проектами</b><span>PeakPoint</span></span></div>
+        <div class="course"><span class="cy">2010</span><span class="ct"><b>ACCA — Finance Management &amp; Accounting</b><span>Сданы Papers F1, F2, F3, F4, F6, F8</span></span></div>
+        <div class="course"><span class="cy">2008</span><span class="ct"><b>Аудит бизнес-процессов</b><span>PwC</span></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOOKING FOR ============ -->
+<section class="section" id="looking">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <span class="sec-label">Что ищу</span>
+      <h2>Идеальная роль и формат</h2>
+      <p class="sec-sub">
+        Разносторонний опыт, интересы и особенности психики позволяют занимать менеджерские позиции,
+        связанные с развитием, общением и мультизадачностью.
+      </p>
+    </div>
+
+    <div class="looking">
+      <div class="look">
+        <div class="ln">01</div>
+        <h4>Компания</h4>
+        <p>Маленькая <b>или</b> средняя — но с гибкостью и без бюрократии.</p>
+      </div>
+      <div class="look">
+        <div class="ln">02</div>
+        <h4>Позиция</h4>
+        <p>Руководитель направления · Руководитель развития · Руководитель специальных проектов · Менеджер по развитию бизнеса · Заместитель коммерческого директора · Руководитель отдела продаж.</p>
+      </div>
+      <div class="look">
+        <div class="ln">03</div>
+        <h4>Формат</h4>
+        <p>Удалённо. Могу посещать конференции или встречи в Москве и Санкт-Петербурге, готова к командировкам.</p>
+      </div>
+      <div class="look">
+        <div class="ln">04</div>
+        <h4>Ограничения</h4>
+        <p>Не рассматриваю околовоенные проекты. Не жаворонок :)</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DIFFERENCES ============ -->
+<section class="section soft" id="diff">
+  <div class="wrap reveal">
+    <div class="sec-head">
+      <span class="sec-label">Мои отличия</span>
+      <h2>Что я приношу в команду</h2>
+    </div>
+
+    <div class="diff">
+      <div class="d-item">
+        <span class="d-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span>
+        <p>Отлично переношу меняющиеся неопределённые условия: позитивно отношусь к новому, часто вижу суть за деталями и несовершенства, предлагая изменения и оптимизацию.</p>
+      </div>
+      <div class="d-item">
+        <span class="d-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span>
+        <p>Умею говорить на разных языках: <b>с клиентами, партнёрами, руководителями, командами, технарями, с ИИ.</b></p>
+      </div>
+      <div class="d-item">
+        <span class="d-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span>
+        <p>Умею переводить с разных языков — <b>в ясные договорённости, презентации, письма, дашборды, таблицы, расчёты, сайты, инструкции, схемы, БФТ.</b></p>
+      </div>
+      <div class="d-item">
+        <span class="d-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span>
+        <p>Сочетаю малосочетаемые качества: врождённый эмоциональный интеллект и эмпатия + умение систематизировать и наводить порядок + креативность и нестандартность мышления + самостоятельность и ответственность.</p>
+      </div>
+      <div class="d-item">
+        <span class="d-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span>
+        <p>Всегда патриот и политик команды, с которой работаю.</p>
+      </div>
+      <div class="d-item">
+        <span class="d-ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 12 5 5L20 7"/></svg></span>
+        <p>Пишу «чтобы» и «никто» слитно :)</p>
+      </div>
+    </div>
+
+    <div class="sec-head" style="margin-top:70px;margin-bottom:0">
+      <span class="sec-label">Увлечения</span>
+      <div class="hobbies">
+        <span class="hobby">Типологии</span>
+        <span class="hobby">ИИ</span>
+        <span class="hobby">Творчество</span>
+        <span class="hobby">Путешествия</span>
+        <span class="hobby">Кизомба</span>
+        <span class="hobby">Интегративная медицина</span>
+        <span class="hobby">ЗОЖ-кулинария</span>
+        <span class="hobby">Организация мероприятий</span>
+        <span class="hobby">Стендап</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap reveal">
+    <div class="sec-head" style="margin-bottom:0">
+      <span class="sec-label" style="color:#C4AFF0">Контакты</span>
+      <h2>Давайте обсудим вашу задачу</h2>
+      <p class="sec-sub">Открыта к предложениям. Отвечаю быстро — удобнее всего в Telegram.</p>
+    </div>
+
+    <div class="contact-grid">
+      <a class="c-card" href="mailto:vhotyan@gmail.com">
+        <span>Email</span>
+        <b>vhotyan@gmail.com</b>
+      </a>
+      <a class="c-card" href="https://t.me/vikanio" target="_blank" rel="noopener">
+        <span>Telegram</span>
+        <b>@vikanio</b>
+      </a>
+      <a class="c-card" href="tel:+79162501475">
+        <span>Телефон</span>
+        <b>+7 (916) 250-14-75</b>
+      </a>
+      <a class="c-card" href="https://linkedin.com/in/vika-khotyan-68131515/" target="_blank" rel="noopener">
+        <span>LinkedIn</span>
+        <b>vika-khotyan</b>
+      </a>
+    </div>
+
+    <p style="margin:36px 0 0;font-size:14.5px;color:rgba(255,255,255,.55)">
+      <b style="color:rgba(255,255,255,.8);font-weight:600">Рекомендации:</b>
+      Unicraft, Бизнес Формула, SML, Digital Zone и другие — руководители, коллеги, HRD. Контакты по запросу.
+    </p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    © <span id="year">2026</span> Виктория Хотян · <a href="mailto:vhotyan@gmail.com">vhotyan@gmail.com</a>
+  </div>
+</footer>
+
+<script>
+  // Sticky nav shadow
+  const nav = document.getElementById('nav');
+  const onScroll = () => nav.classList.toggle('scrolled', window.scrollY > 8);
+  window.addEventListener('scroll', onScroll, {passive:true});
+  onScroll();
+
+  // Scroll reveal
+  const items = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+      });
+    }, {threshold: 0.08, rootMargin: '0px 0px -60px 0px'});
+    items.forEach(el => io.observe(el));
+  } else {
+    items.forEach(el => el.classList.add('in'));
+  }
+
+  // Year
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
